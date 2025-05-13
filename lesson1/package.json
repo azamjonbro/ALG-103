@@ -1,0 +1,16 @@
+{
+  "name": "education-system",
+  "version": "1.0.1",
+  "description": "bu bizning birinchi dars uchun ochgan fileimiz",
+  "main": "index.js",
+  "scripts": {
+    "laylo": "node ./index.js",
+    "oygul": "nodemon ./index.js"
+  },
+  "author": "Azamjonbro",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}

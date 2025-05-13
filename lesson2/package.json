@@ -1,0 +1,17 @@
+{
+  "name": "Lesson dotenv bilan tanishish va expressga kirish",
+  "version": "1.0.0",
+  "description": " Azamat jim otirib oldiga qarab tushuning darsni Sardorbek nechi marta aytay telizzi olib qoying deb",
+  "main": "index.js",
+  "scripts": {
+    "laylo": "node index.js",
+    "oygul":"nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "nodemon": "^3.1.10"
+  }
+}
