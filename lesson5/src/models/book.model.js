@@ -1,9 +1,11 @@
 const mongoose = require("mongoose")
 
+//bu mongooseni yana qaytandan chaqirish
+// bu yerda yangi model yaratish uchun
 const BooksSchema  = new mongoose.Schema({
  name:{
-  require:true,
-  default:"",
+  require:true,// qatiy degani va yozilishi shart degani :)
+  default:"Not Found 404", //agar qiymat kelmay qolsa boshlang'ich qiymat chiqadi :)
   type:String
  },
  description:String,
@@ -19,5 +21,4 @@ const BooksSchema  = new mongoose.Schema({
  quantity:Number
 })
 
-module.exports = mongoose.model("Books",BooksSchema)
-
+module.exports = mongoose.model("Books",BooksSchema) // mongodbdagi modelga nom berib biratolasi tashqariga export qilib yuborrganman
